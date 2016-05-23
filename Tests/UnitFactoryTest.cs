@@ -10,9 +10,9 @@ namespace Tests
         private UnitFactory uf = new UnitFactory(10,11); 
         //pour tester l'affectation de la capacité de la queue
         [TestMethod]
-        public void TestQueueCapacity()  
+        public void QueueCapacityTest()  
         {
-            Assert.AreEqual(10, uf.QueueCapacity);     
+            Assert.AreEqual(10, uf.QueueCapacity);      
         }
     }
 }
